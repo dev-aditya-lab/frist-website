@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Rubik&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(211, 211, 211, 0.575);
+}
+.text1 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.text2 {
+  font-family: "Rubik", sans-serif;
+}
+.text3 {
+  font-family: "Play", sans-serif;
+}
+
+.logo {
+  font-family: "Cherry Bomb One", cursive;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  padding: 3px;
+  padding-left: 10%;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: lighter;
+}
+.logo {
+  padding-right: 30px;
+  font-size: 35px;
+}
+.nav-right {
+  padding-left: 40%;
+}
+.nav-left a {
+  padding-right: 15px;
+}
+.nav-btn-light {
+  color: gray;
+}
+#nav-btn {
+  background-color: rgb(39, 39, 241);
+  padding: 8px;
+  /* border: 1px solid gray; */
+  border-radius: 3px;
+  color: white;
+  font-size: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#nav-btn:hover {
+  background-color: rgb(62, 62, 255);
+}
+
+/* navbar2 */
+.navbar-2 {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 3px;
+  padding-left: 10%;
+  border-bottom: 1px solid lightgray;
+}
+.logo-down {
+  padding-right: 30px;
+  font-size: 35px;
+  color: black;
+  font-size: 25px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.nav-btn-dark2 {
+  color: black;
+  border-bottom: 2px solid black;
+  padding-bottom: 15px;
+}
+
+/* navbar3 */
+
+.navbar-3 {
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  padding-left: 10%;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.nav-btn-dark3 {
+  color: black;
+}
+/* cards */
+.cards {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 150px 30px 150px;
+}
+#card-img {
+  width: 280px;
+  height: 180px;
+  margin-bottom: -3px;
+  border-radius: 2px 2px 0 0;
+}
+.likes {
+  margin-top: 0px;
+  display: flex;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  border-radius: 0 0 2px 2px;
+  align-items: center;
+  /* justify-content: center; */
+  
+}
+.likes p {
+  padding-left: 5px;
+  font-size: 13px;
+  color: gray;
+}
+
+.card-footer{
+    display: flex;
+    padding: 5px 0 5px 5px;
+}
+#r-img {
+  clip-path: circle(50% 50% 50% 50%);
+  width: 40px;
+  border: 1px solid lightgrey;
+  border-radius: 100%;
+}
+.c-f-text{
+    padding: 0 0 0 5px;
+}
+.c-f-text p a {
+  color: blue;
+}
+
+
+.icons{
+  padding-left: 10px;
+  font-size: 15px;
+  color: gray;
+}
+.icons[name="heart-circle-sharp"]{
+  color: rgb(234, 96, 119);
+}
+
+
+img:hover{
+  transform:scale(1.2);
+}
